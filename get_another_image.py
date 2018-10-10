@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 
 # Set DMM Affiliate ID and API ID
-from dmmids import *
+from dmmAPI_IDs import DMM_AFFILIATE_ID, DMM_API_ID
 API_END_POINT = "https://api.dmm.com/affiliate/v3/ActressSearch?api_id=" + DMM_API_ID + "&affiliate_id=" + DMM_AFFILIATE_ID + "&keyword={}" + "&output=json"
 
 # Set Counter
